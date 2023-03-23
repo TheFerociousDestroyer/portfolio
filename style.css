@@ -1,0 +1,89 @@
+h1
+{
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+    margin: 50px 100px 150px 200px;
+}
+
+body
+{
+    background-color: #D2DAFF;
+    padding: 50px;
+}
+
+a:link
+{
+    color: darkgoldenrod;
+}
+
+hr
+{
+    border: dotted darkgrey ;
+    border-bottom: none;
+    width: 50%;
+
+}
+
+
+.header
+{
+background-color: #FFE6E6;
+
+
+}
+
+.menu
+{
+margin-right: 30px;
+
+}
+
+
+
+.menu a
+{
+    margin-left: 20px;
+}
+
+.box1
+{
+    display: flex;
+  
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box2
+{
+border: solid;
+position: relative;
+margin-top: 50px;
+
+}
+
+.box2 p
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: aqua;
+opacity: 0;
+}
+
+.box2:hover p
+{
+    opacity: 100;
+    background-color: black;
+}
+
+.box2:hover img
+{
+    opacity: 0.33;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+}
